@@ -15,3 +15,6 @@ node_modules
 
 # Ignore terraform access file
 terraform.tfvars
+**/.terraform/**
+out.terraform
+.terraform.lock.hcl
