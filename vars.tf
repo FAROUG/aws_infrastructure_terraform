@@ -101,3 +101,15 @@ variable "BASH_SCRIPTS_ZIP_FILE" {
 variable "AWS_SSH_ZIP_FILE_NAME" {
   default = "my_ssh_files.zip"
 }
+# ================================================================================================================================================
+### IAM
+
+## IAM Policy
+variable "AWS_IAM_POLICY_EC2_CUSTOMIZED_NAME" {
+  default = "ec2-customized-policy"
+}
+# ------------------------------------------------------------------------
+## IAM Role
+variable "AWS_IAM_ROLE_EC2_NAME" {
+  default = "EC2InstanceRole"
+}
