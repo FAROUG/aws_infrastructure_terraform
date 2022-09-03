@@ -16,5 +16,20 @@ node_modules
 # Ignore terraform access file
 terraform.tfvars
 **/.terraform/**
-out.terraform
-.terraform.lock.hcl
+**/.terraform.lock.hcl/**
+**/.terraform.lock.hcl
+**/out.terraform
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/.terraform.tfstate.lock.info
+
+# Ignore .git folder
+**/.git
+
+# Ignore sshkeys
+# **/id_rsa
+# **/id_rsa.pub
+# **/my_ssh_files.zip
+**/ami_user_data.sh
+**/ssh_private_key.sh
+**/user_data.sh
